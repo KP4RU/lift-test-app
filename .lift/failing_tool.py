@@ -13,8 +13,8 @@ def emit_applicable():
     print("true")
 
 def run():
-    print('[{\"type\" : \"lift test dev1\",\"message\" : \"testing lift in dev1\", \"file\" : \".lift/failing_tool.py\",\"line\" : 1}]')
-    # raise Exception('Feeling under the weather')
+    # print('[{\"type\" : \"lift test dev1\",\"message\" : \"testing lift in dev1\", \"file\" : \".lift/failing_tool.py\",\"line\" : 1}]')
+    raise Exception('Feeling under the weather')
 
 def main():
     parser = argparse.ArgumentParser(description='Failing Tool')
